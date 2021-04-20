@@ -30,11 +30,30 @@ main {
 
 nav {
     background: #fff;
-    height: 50px;
+    height: 60px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     margin-bottom: 5px;
-    padding: 10px;
+    padding-left: 20px;
+    line-height: 60px;
+}
+
+.add {
+    height: 30px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.task {
+    border: none;
+    background: #47adf1;
+    color: #fff;
+}
+
+.section {
+    border: 1px solid #b5b5b5;
+    background: #fff;
+    color: #b5b5b5;
 }
 
 .body-list {
@@ -42,5 +61,32 @@ nav {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.selezione {
+    display: inline-block;
+    border: 2px solid;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.tag {
+    font-size: 10px;
+}
+
+.fatto {
+    color: #00ff7f;
+}
+
+.non-fatto {
+    color: #ff4500;
 }
 
