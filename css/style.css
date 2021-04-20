@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+span {
+    display: inline-block;
+}
+
 body {
     background-color: #e0e0e0;
 }
@@ -68,7 +72,6 @@ ul {
 }
 
 .selezione {
-    display: inline-block;
     border: 2px solid;
     width: 15px;
     height: 15px;
@@ -79,14 +82,23 @@ ul {
 }
 
 .tag {
+    height: 30px;
+    text-align: center;
     font-size: 10px;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .fatto {
-    color: #00ff7f;
+    color: #65c0a9;
 }
 
 .non-fatto {
-    color: #ff4500;
+    color: #eb5952;
+}
+
+.editorial {
+    background-color: #45abea;
 }
 
