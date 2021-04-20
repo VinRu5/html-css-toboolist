@@ -22,3 +22,25 @@ header {
     display: inline-block;
     font-size: 50px;
 }
+
+main {
+    margin: 50px auto;
+    width: 1000px;
+}
+
+nav {
+    background: #fff;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.body-list {
+    background: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+}
+
